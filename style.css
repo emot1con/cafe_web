@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfbf7;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+.navbar-brand {
+    font-weight: 700;
+    color: #5c4033 !important;
+    font-size: 1.8rem;
+}
+.nav-link {
+    font-weight: 500;
+    color: #4b3832 !important;
+    transition: color 0.3s ease;
+}
+.nav-link:hover, .nav-link.active {
+    color: #d2691e !important;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: linear-gradient(rgba(44, 20, 8, 0.6), rgba(44, 20, 8, 0.6)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    color: white;
+    padding: 140px 0 100px;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 50px;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #fff8dc;
+}
+.hero-subtitle {
+    font-weight: 300;
+    font-size: 1.15rem;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+.btn-custom {
+    background-color: #d2691e;
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
+    border: none;
+}
+.btn-custom:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
+    background-color: #a0522d;
+    color: white;
+}
+
+/* Card Styling */
+.feature-card {
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background: white;
+}
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(92, 64, 51, 0.1) !important;
+}
+.icon-box {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 2rem;
+    background-color: #f5deb3;
+    color: #8b4513;
+}
+
+.card-title {
+    font-weight: 700;
+    color: #3e2723;
+}
+.card-text {
+    color: #6d4c41;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #3e2723;
+    color: #d7ccc8;
+}
